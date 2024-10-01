@@ -1,0 +1,328 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Bootstrap Example</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="/style.css">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<style>
+.pl:hover{
+  background-color: rgba(59, 59, 215, 0.469);
+}
+
+</style>
+<body>
+    <nav class="navbar navbar-expand-sm fixed-top jus bg" style="box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 px 20px 0 rgba(0, 0, 0, 0.19);" >
+        <div class="container">
+          <a class="navbar-brand" href="javascript:void(0)"><img style="margin-left: 40px;"  src="https://pwebassets.paytm.com/commonwebassets/paytmweb/header/images/logo.svg" alt=""></a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mynavbar">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse " id="mynavbar">
+            <ul class="navbar-nav me-auto" style="font-size: larger;">
+              <li class="nav-item col " >
+                <a class="nav-link kl" href="https://paytm.com/recharge-bill-payment" style="margin-left: 15px; width: 230px;"><b style="color: black; ">Paytem for Consumer</b></a>
+              </li>
+              <li class="nav-item col">
+                <a class="nav-link kl" href="https://paytm.com/loans-credit-cards/business-loan/hts/" style="width: 220px;" ><b style="color: black;">Paytem for Business</b></a>
+              </li>
+              <li class="nav-item col">
+                <a class="nav-link kl" href="https://ir.paytm.com/" style="width: 190px;"><b style="color: black;">Investor Relation</b></a>
+              </li>
+              <li class="nav-item col">
+                <a class="nav-link kl" href="https://paytm.com/about-us" style="width: 130px;"><b style="color: black;">Company</b></a>
+              </li>
+              <li class="nav-item col">
+                <a class="nav-link kl" href="https://paytm.com/careers/"><b style="color: black;">Career</b></a>
+              </li>
+            </ul>
+          </div>
+          <form class="d-flex" >
+              <button  style="border-radius: 50px;padding-top: 2px; padding-left: 20px; background-color: darkblue; border: 0px;"><b style="color: white;">Sign In</b><img style="padding-left: 10px;" src="https://pwebassets.paytm.com/commonwebassets/paytmweb/header/images/logoutImg.svg" alt=""></button>
+          </form>
+        </div>
+    </nav>
+    
+      <div class="container flex" style="margin-top: 100px;">
+        <div class="container mt-3">
+          <div>
+            <ul class="container ul2">
+              <li class="li2"><a class="active lia" href="#home"><img src="https://pwebassets.paytm.com/frontendcommonweb/static/eb6953f1..svg" alt="">Flights</a></li>
+              <li class="li2"><a class="active lia" href="#news"><img src="https://pwebassets.paytm.com/frontendcommonweb/static/eb6953f1..svg" alt="">Bus</a></li>
+              <li class="li2"><a class="active lia" href="#contact"><img src="https://pwebassets.paytm.com/frontendcommonweb/static/eb6953f1..svg" alt="">Train</a></li>
+              <li class="li2"><a class="active lia" href="#contact"><img src="https://pwebassets.paytm.com/frontendcommonweb/static/eb6953f1..svg" alt="">Intl. Flights</a></li>
+            </ul>
+          </div>
+        </div>
+        <div>
+          <img style="width: 150px; margin-top: 30px;" src="https://paytmtravel-images-akamai.paytm.com/icons/Paytm_Travel_Logo.svg" alt="" srcset=""><b></b></img>
+        </div>
+      </div>
+    
+      <div  style="border: 2px solid black; background-color: white;margin-left: 140px; border-radius: 11px; border-color: white; width: 1265px;">
+        <form action="" style="margin: 15px;">
+              <input  type="radio" id="male" name="male" value="male">
+              <label style="padding-left: 5px; padding-right: 15px;" for="male"><b>One Way</b></label>
+              <input  type="radio" id="female" name="male" value="female">
+              <label for="female" style="padding-left: 5px;"><b>Round Trip</b></label><br><br>
+              <div class="sub1" style="width: 180px;"><span style="color: grey;">From</span><br><span style="font-size: larger; color: black;"><b>From</b></span><br><input type="text" placeholder="Select City                                              " style=" border: 0px; text-decoration-line: underline;text-decoration-thickness: 1px;"></div>
+              <i  class="fa-solid fa-arrow-right-arrow-left suba"></i>
+              <div class="sub2" style="padding-left: 5px; width: 200px;"><span style="color: grey;">To</span><br><span style="font-size: larger; color: black;"><b>To</b></span><br><input type="text" placeholder="Select City                                              " style=" border: 0px; text-decoration-line: underline;text-decoration-thickness: 1px;"></div>
+              <div class="sub3" style="width: 200px;"><span style="color: grey;">Departure Date</span><br><span style="font-size: larger; color: blue;"><b>Choose Date</b></span><br><input type="date"  style=" border: 0px; text-decoration-line: underline;text-decoration-thickness: 1px;"></div>
+              <div class="sub4" style="width: 200px;"><span style="color: grey;">Return Date</span><br><span style="font-size: larger; color: blue;"><b>Choose Date</b></span><br><input type="date" style=" border: 0px; text-decoration-line: underline;text-decoration-thickness: 1px;"></div>
+              <div class="sub5" style="width: 200px;"><span style="color: grey;">Travellers & Cabin Class</span><br><span style="font-size: larger; color: black;"><b>7 Travellers</b></span><br><input type="text" placeholder="Select City                                              " style=" border: 0px; text-decoration-line: underline;text-decoration-thickness: 1px;"></div>
+    
+              <br>
+              <span style="color: grey;">Special Fares (optional)       </span>
+              <button id="myButton1" style="background-color: white; color: grey;border: 1px solid gray; border-radius: 15px; margin-left: 10px;">Armed Forces</button>
+              <button id="myButton2" style="background-color: white; color: grey;border: 1px solid gray; border-radius: 15px;">Student</button>
+              <button id="myButton3" style="background-color: white; color: grey;border: 1px solid gray; border-radius: 15px;">Senior Citizen</button>
+              <button id="myButton4" style="background-color: white; color: grey;border: 1px solid gray; border-radius: 15px; ">Friends & Family</button>
+    
+              <div class="sum" ><input style="background-color:  cyan; color: white; padding: 10px; width: 150px; border-radius: 10px;border: 2px solid cyan; " type="submit" value="Search Flight">
+                <!-- <button style="background-color: cyan; color: white; padding: 10px; width: 150px; border-radius: 10px;border: 2px solid cyan; "><b>Search Flight</b></button> -->
+              </div>
+        </form>
+      </div>  
+
+
+    <div id="carouselExample" class="carousel slide" data-bs-ride="carousel" style=" margin-left: 10%; width: 80%; margin-top: 50px;">
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <div class="row">
+                    <div class="col-md-4">
+                      <a href="https://paytm.com/offer/flight-tickets/travelsale-26sept"><img style="border-radius: 10px;" src="https://assetscdn1.paytm.com/images/catalog/view_item/1770537/1727327229422.jpg" class="img-fluid" alt="Image 1"></a>
+                    </div>
+                    <div class="col-md-4">
+                        <a href="https://tickets.paytm.com/flights/common/tnc?name=FLYHOLIDAY&imageId=2699067/1727261249921&title=FLYHOLIDAY&url_type=flightticket"><img style="border-radius: 10px;" src="https://assetscdn1.paytm.com/images/catalog/view_item/2701354/1726637489970.jpg" class="img-fluid" alt="Image 2"></a>
+                    </div>
+                    <div class="col-md-4">
+                        <a href="https://tickets.paytm.com/flights/common/tnc?name=FLYHDFCEMI&imageId=2703263/1725450073943&title=FLYHDFCEMI&url_type=flightticket"><img style="border-radius: 10px;" src="https://assetscdn1.paytm.com/images/catalog/view_item/2701354/1726637489970.jpg" class="img-fluid" alt="Image 3"></a>
+                    </div>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <div class="row">
+                    <div class="col-md-4">
+                        <a href="https://cif.paytm.com/kyc/tnc/get/150002301"><img style="border-radius: 10px;" src="https://assetscdn1.paytm.com/images/catalog/view_item/1770607/1718869597012.jpg" class="img-fluid" alt="Image 4"></a>
+                    </div>
+                    <div class="col-md-4">
+                        <a href="https://paytm.com/offer/flight-tickets/zeroconvfee-tnc"><img style="border-radius: 10px;" src="https://assetscdn1.paytm.com/images/catalog/view_item/1799116/1718869065507.jpg" class="img-fluid" alt="Image 5"></a>
+                    </div>
+                    <div class="col-md-4">
+                        <a href="https://tickets.paytm.com/flights/common/tnc?name=FLYHOLIDAY&imageId=2699067/1727261249921&title=FLYHOLIDAY&url_type=flightticket"><img style="border-radius: 10px;" src="https://assetscdn1.paytm.com/images/catalog/view_item/2701354/1726637489970.jpg" class="img-fluid" alt="Image 6"></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+        </button>
+    </div>
+
+
+    <div style="background-color: aqua; width: 100%;height: 350px; margin-top: 50px;">
+    <div class="container" style="color: white; margin-left: 150px;"><h3 style="padding-top: 40px; padding-bottom: 10px;"><b>Recharge & Pay Bills on Paytm.</b></h3></div>
+    <div class="d-flex mb-3 container" style="margin-left: 150px;">
+      <a href="https://paytm.com/recharge" style="text-decoration: none; color: white;"><div class="p-2 flex-fill "><div class="as" style=" width: 150px; height: 200px;border-radius: 5px; padding-top: 2px;"><div style="margin: 5px; height: 70px; width: 70px; border-radius: 50px; background-color: white;">
+        <center><img src="https://assetscdn1.paytm.com/images/catalog/view_item/733299/1626251017535.png" style="height: 70px; width: 70px;" alt=""></center><b><br>Recharge <br>Prepaid <br>Mobile</b></div></div></div></a>
+
+      <a href="https://paytm.com/electricity-bill-payment" style="text-decoration: none; color: white;"> <div class="p-2 flex-fill "><div class="as" style="border-radius: 5px; padding-top: 2px; width: 150px; height: 200px;"><div style="margin: 5px; height: 70px; width: 70px; border-radius: 50px; background-color: white;">
+        <center><img src="https://assetscdn1.paytm.com/images/catalog/view_item/733308/1626251043534.png" style="height: 70px; width: 70px;" alt=""></center><b><br>Pay <br>Electricity <br>Bill</b></div></div></div></a>  
+  
+      <a href="https://paytm.com/dth-recharge" style="text-decoration: none; color: white;"><div class="p-2 flex-fill "><div class="as" style="border-radius: 5px; padding-top: 2px; width: 150px; height: 200px;"><div style="margin: 5px; height: 70px; width: 70px; border-radius: 50px; background-color: white;">
+        <center><img src="https://assetscdn1.paytm.com/images/catalog/view_item/733311/1626251101045.png" style="height: 70px; width: 70px;" alt=""></center><b><br>Recharge <br>Dth  <br>Connection</b></div></div></div></a>
+
+      <a href="https://paytm.com/cylinder-gas-recharge" style="text-decoration: none; color: white;"><div class="p-2 flex-fill "><div class="as" style="border-radius: 5px; padding-top: 2px; width: 150px; height: 200px;"><div style="margin: 5px; height: 70px; width: 70px; border-radius: 50px; background-color: white;">
+        <center><img src="https://assetscdn1.paytm.com/images/catalog/view_item/733307/1626251127863.png" style="height: 70px; width: 70px;" alt=""></center><b><br>Book <br>Gas <br>Cylinder</b></div></div></div></a>
+  
+      <a href="https://paytm.com/broadband-bill-payment" style="text-decoration: none; color: white;"><div class="p-2 flex-fill "><div class="as" style="border-radius: 5px; padding-top: 2px; width: 150px; height: 200px;"><div style="margin: 5px; height: 70px; width: 70px; border-radius: 50px; background-color: white;">
+        <center><img src="https://assetscdn1.paytm.com/images/catalog/view_item/1269194/1672827522093.png" style="height: 70px; width: 70px;" alt=""></center><b><br>Pay <br>Broadband<br>LandlineBill</b></div></div></div></a>
+  
+      <a href="https://paytm.com/education" style="text-decoration: none; color: white;"><div class="p-2 flex-fill "><div class="as" style="border-radius: 5px; padding-top: 2px; width: 150px; height: 200px;"><div style="margin: 5px; height: 70px; width: 70px; border-radius: 50px; background-color: white;">
+        <center><img src="https://assetscdn1.paytm.com/images/catalog/view_item/1269198/1672828917034.png" style="height: 70px; width: 70px;" alt=""></center><b><br>Pay <br>Education <br>Fee</b></div></div></div></a>
+  
+      <a href="https://paytm.com/" style="text-decoration: none; color: white;"><div class="p-2 flex-fill "><div class="as" style="border-radius: 5px; padding-top: 2px; width: 150px; height: 200px;"><div style="margin: 5px; height: 70px; width: 70px; border-radius: 50px; background-color: white;">
+        <center><img src="https://assetscdn1.paytm.com/images/catalog/view_item/1269198/1672828917034.png" style="height: 70px; width: 70px;" alt=""></center><b><br>All <br>Payment <br>Services</b></div></div></a>
+    </div>
+
+  </div>
+  </div>
+
+  <div style="width: 100%; background-color: white;">
+    <div class="container" style="margin-left: 150px;">
+      <img style="height: 80px; width: 80px;border-radius: 15px; margin-top: 50px; box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);" src="https://assetscdn1.paytm.com/images/catalog/view/310944/1697527183231.png" alt="">
+      <h1></h1><br>
+      <h1 style="font-size: 60px;"><b>India's Most-loved <br> Payments App</b></h1><br>
+      <p style="font-size: large;">Recharge & pay bills, book flights & movie tickets, <br> invest in stocks & mutual funds, and do a lot <br> more.</p>
+      <br>
+      <button id="buut" style="border: 0px; height: 50px; border-radius: 50px; width: 250px; color: white; background-color: black;" ><b>Download Paytm App </b><i style="margin-left: 5px;" class="fa-brands fa-apple"></i> <i style="margin-left: 5px;" class="fa-brands fa-google-play"></i></button>
+    </div>
+
+    <div>
+      <img style="height: 550px;padding-bottom: 50px;  margin-top: -410px; margin-left: 968px;" src="https://assetscdn1.paytm.com/images/catalog/view_item/850762/1715933362922.png" alt="">
+    </div>
+  </div>
+
+  <div style="background-color: darkblue; width: 100%;height: 350px; ">
+    <div class="container" style="color: white; margin-left: 150px;"><h3 style="padding-top: 40px; padding-bottom: 10px;"><b>Recharge & Pay Bills on Paytm.</b></h3></div>
+    <div class="d-flex mb-3 container" style="margin-left: 150px;">
+      <a href="https://paytm.com/movies" style="text-decoration: none; color: white;"><div class="p-2 flex-fill "><div class="pl" style="border-radius: 5px; padding-top: 2px; width: 150px; height: 200px;"><div style="margin: 5px; height: 70px; width: 70px; border-radius: 50px; background-color: white;">
+        <center><img src="https://assetscdn1.paytm.com/images/catalog/view_item/733295/1626259710574.png" style="height: 70px; width: 70px;" alt=""></center><b style="color: white; "><br>Movie<br>Tickets</b></div></div></div></a>
+
+      <a href="https://tickets.paytm.com/flights/" style="text-decoration: none; color: white;"><div class="p-2 flex-fill "><div class="pl" style="border-radius: 5px; padding-top: 2px; width: 150px; height: 200px;"><div style="margin: 5px; height: 70px; width: 70px; border-radius: 50px; background-color: white;">
+        <center><img src="https://assetscdn1.paytm.com/images/catalog/view_item/733296/1626259884425.png" style="height: 70px; width: 70px;" alt=""></center><b style="color: white;"><br>Flight<br>Tickets</b></div></div></div></a>
+  
+      <a href="https://tickets.paytm.com/bus/" style="text-decoration: none; color: white;"><div class="p-2 flex-fill "><div class="pl" style="border-radius: 5px; padding-top: 2px;  width: 150px; height: 200px;"><div style="margin: 5px; height: 70px; width: 70px; border-radius: 50px; background-color: white;">
+        <center><img src="https://assetscdn1.paytm.com/images/catalog/view_item/729996/1626260477699.png" style="height: 70px; width: 70px;" alt=""></center><b style="color: white;"><br>Bus<br>Tickets</b></div></div></div></a>
+  
+      <a href="https://tickets.paytm.com/trains/" style="text-decoration: none; color: white;"><div class="p-2 flex-fill "><div class="pl" style="border-radius: 5px; padding-top: 2px;  width: 150px; height: 200px;"><div style="margin: 5px; height: 70px; width: 70px; border-radius: 50px; background-color: white;">
+        <center><img src="https://assetscdn1.paytm.com/images/catalog/view_item/729997/1696910636390.png" style="height: 70px; width: 70px;" alt=""></center><b style="color: white;"><br>Train<br>Tickets</b></div></div></div></a>
+  
+      <a href="https://tickets.paytm.com/international-flights/" style="text-decoration: none; color: white;"><div class="p-2 flex-fill"><div class="pl" style="border-radius: 5px; padding-top: 2px;  width: 150px; height: 200px;"><div style="margin: 5px; height: 70px; width: 70px; border-radius: 50px; background-color: white;">
+        <center><img src="https://assetscdn1.paytm.com/images/catalog/view_item/729999/1626259968563.png" style="height: 70px; width: 70px;" alt=""></center><b style="color: white;"><br>International<br>Flight</b></div></div></div></a>
+  
+      <a href="https://paytminsurance.co.in/" style="text-decoration: none; color: white;"><div class="p-2 flex-fill "><div class="pl" style="border-radius: 5px; padding-top: 2px;  width: 150px; height: 200px;"><div style="margin: 5px; height: 70px; width: 70px; border-radius: 50px; background-color: white;">
+        <center><img src="https://assetscdn1.paytm.com/images/catalog/view_item/729998/1666185237748.png" style="height: 70px; width: 70px;" alt=""></center><b style="color: white;"><br>Buy<br>Insurance</b></div></div></div></a>
+  
+      <a href="https://www.paytmmoney.com/" style="text-decoration: none; color: white;"><div class="p-2 flex-fill"><div class="pl" style="border-radius: 5px; padding-top: 2px;  width: 150px; height: 200px;"><div style="margin: 5px; height: 70px; width: 70px; border-radius: 50px; background-color: white;">
+        <center><img src="https://assetscdn1.paytm.com/images/catalog/view_item/730001/1626450848003.png" style="height: 70px; width: 70px;" alt=""></center><b style="color: white;"><br>Invest <br>in Stocks</b></div></div></a>
+    </div>
+
+  </div>
+  </div>
+
+  <div style="background-color: white;width: 100%;">
+    <div style=" margin-left: 150px;">
+      <img style="height: 50px; margin-top: 100px;" src="https://assetscdn1.paytm.com/images/catalog/view/308775/1653901470333.jpeg" alt=""><br>
+      <br><br><h1 style="color: black; font-size: 60px;">Insurance made easy.</h1><br>
+      <b style="font-size: large;">Buying insurance does not have to be tedious, time-<br> consuming & confusing. Paytm Insurance removes the
+         <br>worry of getting insured by making it simple, <br>convenient & easy-to-understand.</b> <br><br>
+      <a href="https://paytminsurance.co.in/" target="_blank"><button style="height: 40px;border: 0px; border-radius: 50px; width: 150px; color: white; background-color: darkblue;" ><b>Learn More </b><i style="margin-left: 2px; font-size: small;" class="fa-solid fa-arrow-right"></i></button></a>
+      
+      <div><img style="height: 500px;padding-bottom: 50px;  margin-top: -400px; margin-left: 730px;" src="https://assetscdn1.paytm.com/images/catalog/view_item/788790/1653913927257.png" alt=""></div>
+    </div>
+  </div>
+
+  <div style="background-image: url(https://pwebassets.paytm.com/commonwebassets/commonweb/images/home/gray-spike.png); background-size: cover;">
+    <img src="https://assetscdn1.paytm.com/images/catalog/view_item/788781/1626077377376.png" style="height: 500px; margin-top: 80px; margin-left: 130px;" alt="">
+
+    <div style="margin-top: -480px; margin-left: 820px; padding-bottom: 100px;">
+      <img style="height: 50px;" src="https://assetscdn1.paytm.com/images/catalog/view/308774/1617696247991.png" alt=""><br><br><br>
+      <h1 style="color: black; font-size: 40px;"><b>Build Long-term <br>Wealth & Achieve <br>your Goals.</b></h1><br>
+      <p style="font-size: large;"><b>Investing on Paytm Money is transparent, low-cost and <br>commission-free. Buy stocks & mutual funds that can <br>help you create wealth & realise your dreams.</b></p><br><br>
+      <a href="https://www.paytmmoney.com/" target="_blank"><button style="height: 40px;border: 0px; border-radius: 50px; width: 150px; color: white; background-color: darkblue;" ><b>Learn More </b><i style="margin-left: 2px; font-size: small;" class="fa-solid fa-arrow-right"></i></button></a>
+    </div>
+  </div>
+
+  <div style="background-color: white; width: 100%; ">
+    <div style="border: 1px solid white; margin-left: 150px; width: 780px; padding-bottom: 50px;">
+      <h1 style="font-size: 60px; margin-top: 100px;"><b>Financial Services by Paytm</b></h1><br>
+      <img style="height: 70px;" src="https://assetscdn1.paytm.com/images/catalog/view/308777/1617695287770.png" alt=""><br><br><br>
+      <h1 style="color: black;"><b>Get a Personal Loan in 2 <br> Minutes.</b></h1><br>
+      <p style="font-size: large; color: black;"><h5>Paytm offers India’s quickest multi-purpose, hassle- <br>free loan. It is 100% digital, transparent and <br>paperless.</h5></p><br>
+      <a href="https://paytm.com/loans-credit-cards/personal-loan/" target="_blank"> <button style="height: 40px;border: 0px; border-radius: 50px; width: 150px; color: white; background-color: darkblue;" ><b>Learn More </b><i style="margin-left: 2px; font-size: small;" class="fa-solid fa-arrow-right"></i></button></a>
+    </div>
+
+    <div>
+      <img src="https://assetscdn1.paytm.com/images/catalog/view_item/850765/1715933514584.png" style="margin-top: -550px;margin-left: 1000px; height: 400px;" alt="">
+    </div>
+  </div>
+
+  <div style="background-color: white; width: 100%;">
+    <h1 style="margin-left: 140px;color: black;font-size: 60px; padding-top: 100px;"><b>Business Services by Paytm</b></h1>
+    <div style="border: 1px; background-color: beige; margin-left: 140px; border-radius: 5px; width: 1200px;">
+      <h1 style="margin-left: 120px; padding-top: 150px; color: black;"><b>Accept payments <br>online with ease</b></h1><br>
+      <p style="font-size: 20px; margin-left: 120px; color: black;">Grow your business with the payment gateway that powers <br>India’s largest brands and even the Paytm App</p><br>
+      <a href="https://business.paytm.com/payment-gateway" target="_blank"><button style="height: 40px;border: 0px; border-radius: 50px; width: 150px;margin-left: 120px; color: white; background-color: darkblue;" ><b>Learn More </b><i style="margin-left: 2px; font-size: small;" class="fa-solid fa-arrow-right"></i></button></a>
+     
+     <div><img style="margin-left: 780px;margin-top: -350px; height: 500px; padding-bottom: 50px;" src="https://assetscdn1.paytm.com/images/catalog/view_item/853877/1715931765508.png" alt=""></div>
+    </div>
+  </div>
+
+  <div style="background-color: white; width: 100%;">
+    <div style="background-color: white; width: 100%; height: 150px;"></div>
+    <div style="border: 1px; background-color: beige; margin-left: 140px; border-radius: 5px; width: 1200px;">
+      <h1 style="margin-left: 120px; padding-top: 150px; color: black;"><b>In-shop payments<br>powered by Paytm.</b></h1><br>
+      <p style="font-size: 20px; margin-left: 120px; color: black;">Millions of small & big businesses use Paytm to accept<br>payments anywhere any time with a wide range of <br>solutions for all kind of merchants</p><br>
+      <a href="https://business.paytm.com/" target="_blank"><button style="height: 40px;border: 0px; border-radius: 50px; width: 150px;margin-left: 120px; color: white; background-color: darkblue;" ><b>Learn More </b><i style="margin-left: 2px; font-size: small;" class="fa-solid fa-arrow-right"></i></button></a>
+
+     <div><img style="margin-left: 52.5%;margin-top: -350px; height: 500px; padding-bottom: 50px;" src="https://assetscdn1.paytm.com/images/catalog/view_item/853880/1715931943699.png" alt=""></div>
+    <div style="background-color: white; width: 100%; height: 150px;"></div>
+    </div>
+  </div>
+
+  <div style="margin-left: 150px; margin-top: 100px;">
+    <b style=" font-size: larger; color: black;">Download Paytm App <br>to Pay from anywhere</b>
+    <a href="https://apps.apple.com/in/app/paytm-secure-upi-payments/id473941634" target="_blank"><img style="margin-top: -30px; margin-left: 10px;" src="https://pwebassets.paytm.com/commonwebassets/paytmweb/footer/images/downloadApple.svg" alt=""></a>
+    <a style="text-decoration: none;" href="https://play.google.com/store/apps/details?id=net.one97.paytm&pli=1" target="_blank"><img style="margin-top: -30px; margin-left: 10px;" src="https://pwebassets.paytm.com/commonwebassets/paytmweb/footer/images/downloadGoogle.svg" alt=""> </a>
+
+    <a style="margin-left: 500px; padding-right: 15px;" href="https://x.com/paytm" target="_blank"><img src="https://pwebassets.paytm.com/commonwebassets/paytmweb/footer/images/twitter.svg" alt=""></a>
+    <a style="padding-right: 18px;" href="https://www.instagram.com/paytm/" target="_blank"><img src="https://pwebassets.paytm.com/commonwebassets/paytmweb/footer/images/instagram.svg" alt=""></a>
+    <a href="https://www.facebook.com/Paytm/" target="_blank"><img src="https://pwebassets.paytm.com/commonwebassets/paytmweb/footer/images/facebook.svg" alt=""></a> 
+
+    <div style="margin-top: 70px; width: 1190px;"><hr></div>
+  </div>
+
+  <div style="width: 100%; height: 15px;margin-top: 100px; background-color: aqua;"></div>
+  <div style="width: 100%; height: 12px; background-color: darkblue;"></div>
+
+</body>
+<script>
+
+      const bu = document.getElementById('myButton1');
+      bu.addEventListener('mouseover', function() {
+          bu.style.backgroundColor = 'gray'; 
+          bu.style.color = 'black';
+      });
+      bu.addEventListener('mouseout', function() {
+          bu.style.backgroundColor = 'white';
+          bu.style.color = 'gray'; 
+      });
+
+
+      const but = document.getElementById('myButton2');
+      but.addEventListener('mouseover', function() {
+          but.style.backgroundColor = 'gray'; 
+          but.style.color = 'black';
+      });
+      but.addEventListener('mouseout', function() {
+          but.style.backgroundColor = 'white';
+          but.style.color = 'gray'; 
+      });
+
+
+      const butt = document.getElementById('myButton3');
+      butt.addEventListener('mouseover', function() {
+          butt.style.backgroundColor = 'gray'; 
+          butt.style.color = 'black';
+      });
+      butt.addEventListener('mouseout', function() {
+          butt.style.backgroundColor = 'white';
+          butt.style.color = 'gray'; 
+      });
+      
+
+      const butto = document.getElementById('myButton4');
+      butto.addEventListener('mouseover', function() {
+          butto.style.backgroundColor = 'gray'; 
+          butto.style.color = 'black';
+      });
+      butto.addEventListener('mouseout', function() {
+          butto.style.backgroundColor = 'white';
+          butto.style.color = 'gray'; 
+      });
+
+</script>
+</html>
+
+
